@@ -1,0 +1,13 @@
+train: C:/Users/chilesh/Desktop/yolo/Road_damages/train/images
+val:  C:/Users/chilesh/Desktop/yolo/Road_damages/valid/images
+test: C:/Users/chilesh/Desktop/yolo/Road_damages/test/images
+
+nc: 3
+names: ['Pothole detect yolo - v1 2024-02-23 1-14am', 'crack', 'object']
+
+roboflow:
+  workspace: chileshs-workspace
+  project: road-damage-detection-zfqfj-gmvbd
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/chileshs-workspace/road-damage-detection-zfqfj-gmvbd/dataset/1
